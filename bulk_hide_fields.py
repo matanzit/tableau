@@ -14,7 +14,7 @@ def main():
     hcount=0
 
     for ds in root.iter('datasource'):
-        if 'caption' in ds.attrib and 'inline' in ds.attrib: # and ds.attrib["caption"]=='Campaign Performance':
+        if 'caption' in ds.attrib and 'inline' in ds.attrib: # and ds.attrib["caption"]=='data_source_1':
             # print ds.attrib
             for col in ds.iter('column'):
                 if 'role' in col.attrib and (col.attrib["role"]=='dimension' or col.attrib["role"]=='measure'):
