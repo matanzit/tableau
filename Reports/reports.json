@@ -1,0 +1,30 @@
+[
+   {
+      "state" : "inactive",
+      "name":"report_name",
+      "source_view":"wbname/viewname",
+      "output_file":"outputname",
+      "fields":[
+         "f1",
+         "f2",
+         "f3"
+      ],
+      "mail":{
+         "active":"yes",
+         "recipients":["matanzit@hello.com"],
+         "subject":"title"
+      },
+      "ftp":{
+         "active":"yes",
+         "url":"",
+         "user":",
+         "password":"",
+         "path":""
+      },
+      "schedule":{
+         "interval":"Daily",
+         "hour":6,
+         "minute":30
+      }
+   }
+]
